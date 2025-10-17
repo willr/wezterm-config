@@ -17,7 +17,7 @@ if platform.is_win then
          name = 'ssh:wsl',
          remote_address = 'localhost',
          multiplexing = 'None',
-         default_prog = { 'fish', '-l' },
+         default_prog = { 'zsh', '-l' },
          assume_shell = 'Posix',
       },
    }
